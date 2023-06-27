@@ -1,0 +1,65 @@
+h1{
+   padding-top: 20px;
+   
+    text-align: center;
+    text-decoration: solid;
+}
+p{
+  display: inline;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(pic-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.calculator {
+    width:250px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    
+    background-color: #7ec9b0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+}
+
+  .dis{
+    border-width: 2px ;
+    color: red;
+    
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;  
+  }
+  
+  button {
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    transition: background-color 0.15s;
+  }
+  
+  button:hover{
+    background-color: rgb(233, 227, 227);
+    color: orangered;
+  }
+  
